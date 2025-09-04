@@ -1,0 +1,1 @@
+packagecom.jadecross.guestbook;import staticorg.junit.jupiter.api.Assertions.assertEquals;importorg.junit.jupiter.api.Test;classPostTest {@TestvoidtestSetName() {Post post= newPost("TESTER",  "2022-04-12 01:01:48",  "Happy Wedding");post.setName("DEVOPS");assertEquals("DEVOPS",  post.getName());}}
